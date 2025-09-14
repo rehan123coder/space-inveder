@@ -64,8 +64,7 @@ textX = 10
 textY = 10
 
 # Game Over Text
-over_font = pygame.font.Font('freesansbold.ttf', 64)
-
+over_font = pygame.font.Font('freesansbold.ttf', 64)   
 def show_score(x, y):
     # Display the current score on the screen.
     score = font.render("Score : " + str(score_value), True, (255, 255, 255))
